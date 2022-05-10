@@ -20,7 +20,7 @@ main section{
 }
 
 body{
-    background-color: white;
+    background-color: #008F8F;
 }
 
 .book, .join, footer a, nav a{
@@ -35,16 +35,7 @@ body{
     color: #454545;
 }
 
-
-#background{
-    background-color: #008F8F;
-}
-
-.msg{
-    background-color: #008F8F;
-}
-
-footer, nav, header{
+footer, nav, header, .msg, #background{
     background-color: #69995D;
 }
 
