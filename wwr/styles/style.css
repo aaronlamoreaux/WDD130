@@ -22,3 +22,11 @@ main section{
 #background {
     height: 725px;
 }
+
+body{
+    background-color: #008F8F;
+}
+
+header{
+    background-color: #017878;
+}
