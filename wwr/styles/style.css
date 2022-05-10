@@ -23,15 +23,8 @@ body{
     background-color: #008F8F;
 }
 
-.book {
+.book, .join {
     background-color: #69995D;
-    color: #454545;
-    text-decoration: none;
-    text-align: center;
-}
-
-.join{
-    background-color: #008F8F;
     color: #454545;
     text-decoration: none;
     text-align: center;
