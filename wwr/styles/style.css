@@ -32,15 +32,15 @@ header{
 }
 
 nav a:hover{
-    background-color: #008F8F;
+    background-color: #D5A021
 }
 
 .book, .join{
-    background-color: #008F8F;
+    background-color: #69995D;
 }
 
 .book:hover, .join:hover{
-    background-color: #008F8F;
+    background-color: #D5A021;
 }
 
 
@@ -53,5 +53,5 @@ nav a:hover{
 }
 
 footer{
-    background-color: #008F8F;
+    background-color: #69995D;
 }
