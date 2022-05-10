@@ -39,6 +39,7 @@ footer a, nav a{
 .book:hover, .join:hover, footer a:hover, nav a:hover {
     background-color: #D5A021;
     color: #454545;
+    text-decoration: underline;
 }
 
 footer, nav, header, .msg, #background{
@@ -52,6 +53,7 @@ footer, nav, header, .msg, #background{
 
 footer h3 {
     color: #454545;
+    text-decoration: underline;
 }
 
 .icon{
