@@ -28,5 +28,30 @@ body{
 }
 
 header{
-    background-color: #017878;
+    background-color: #008F8F;
+}
+
+nav a:hover{
+    background-color: #008F8F;
+}
+
+.book, .join{
+    background-color: #008F8F;
+}
+
+.book:hover, .join:hover{
+    background-color: #008F8F;
+}
+
+
+#background{
+    background-color: #008F8F;
+}
+
+.msg{
+    background-color: #008F8F;
+}
+
+footer{
+    background-color: #008F8F;
 }
