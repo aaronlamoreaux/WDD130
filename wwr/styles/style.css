@@ -45,9 +45,13 @@ footer, nav, header, .msg, #background{
     background-color: #69995D;
 }
 
-.home-title, h4, .msg h2, .msg p, footer h3 {
+.home-title, h4, .msg h2, .msg p {
     color: #454545;
     text-align: center;
+}
+
+footer h3 {
+    color: #454545;
 }
 
 .icon{
