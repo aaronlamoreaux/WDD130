@@ -23,11 +23,17 @@ body{
     background-color: #008F8F;
 }
 
-.book, .join, footer a, nav a{
+.book, .join{
     background-color: #69995D;
     color: #454545;
     text-decoration: none;
     text-align: center;
+}
+
+footer a, nav a{
+    background-color: #69995D;
+    color: #454545;
+    text-decoration: none;
 }
 
 .book:hover, .join:hover, footer a:hover, nav a:hover {
