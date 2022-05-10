@@ -48,8 +48,12 @@ header{
     background-color: #008F8F;
 }
 
-footer, nav{
-    background-color: #008F8F;
+footer{
+    background-color: #69995D;
+}
+
+nav{
+    background-color: #69995D;
 }
 
 .home-title, h4, .msg h2, .msg p, footer h3 {
