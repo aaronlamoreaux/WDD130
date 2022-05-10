@@ -36,13 +36,7 @@ footer a, nav a{
     text-decoration: none;
 }
 
-.book:hover, .join:hover{
-    background-color: #008F8F;
-    color: #454545;
-    text-decoration: underline;
-} 
-
-.footer a:hover, nav a:hover {
+.footer a:hover, nav a:hover, .book:hover, .join:hover {
     background-color: #D5A021;
     color: #454545;
     text-decoration: underline;
