@@ -23,10 +23,6 @@ body{
     background-color: white;
 }
 
-header{
-    background-color: #008F8F;
-}
-
 .book, .join, footer a, nav a{
     background-color: #69995D;
     color: #454545;
@@ -48,11 +44,7 @@ header{
     background-color: #008F8F;
 }
 
-footer{
-    background-color: #69995D;
-}
-
-nav{
+footer, nav, header{
     background-color: #69995D;
 }
 
