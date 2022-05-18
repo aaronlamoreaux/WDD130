@@ -96,18 +96,18 @@ main section img {
     border-radius: 5px;
 }
 
-.msg {
-    background-color: #69995D;
-    line-height: 1.5em;
-    padding: 35px;
-}
-
 .home-title {
     color: #454545;
     text-align: center;
     font-family: "Oswald";
     font-size: 2em;
     margin-top: 10px;
+}
+
+.msg {
+    background-color: #69995D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
