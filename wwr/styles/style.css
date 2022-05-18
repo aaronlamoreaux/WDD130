@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Radio+Canada:wght@300&display=swap');
 
-nav {
+nav, nav a {
     text-align: center;
     background-color: #69995D;
+    padding: 35px;
 }
 
 a {
@@ -15,21 +16,31 @@ a {
 body {
     background-color: #008F8F;
     color: #454545;
+    font-family: "Radio Canada";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-main section{
+main section {
     text-align: center;
 }
 
-a:hover{
+a:hover {
     background-color: #D5A021;
     color: #454545;
     text-decoration: underline;
 }
 
-footer{
+footer {
     background-color: #69995D;
     color: #454545;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 header {
@@ -40,15 +51,22 @@ h4 {
     text-align: center;
 }
 
+h2 {
+    font-family: "Oswald";
+    margin: 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-
 #hero-msg h1 {
     text-align: center;
-    font-family: "Oswald";
 }
 
 #hero-msg h4 {
@@ -57,47 +75,39 @@ h4 {
 
 #background {
     height: 725px;
+    background-color: #69995D;
 }
 
-#background {
-    background-color: #69995D;
+#link_logo {
+    padding-top: 5px;
 }
 
 .button-box{
     text-align: center;
 }
 
-.book {
+.book, .join {
     background-color: #D5A021;
     text-decoration: none;
     text-align: center;
-}
-
-.join {
-    background-color: #D5A021;
-    text-decoration: none;
-    text-align: center;
-}
-
-.book:hover {
-    background-color: #D5A021;
-    color: #454545;
-    text-decoration: underline;
-}
-
-.join:hover {
-    background-color: #D5A021;
-    color: #454545;
-    text-decoration: underline;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .msg {
     background-color: #69995D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .home-title {
     color: #454545;
     text-align: center;
+    font-family: "Oswald";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .msg h2 {
@@ -108,11 +118,23 @@ h4 {
 .msg p {
     color: #454545;
     text-align: center;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
-.logo{
+.logo {
     width: 80px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+       border: 10px solid #D5A021;
+}
