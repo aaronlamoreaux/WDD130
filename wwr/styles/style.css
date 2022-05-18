@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-nav a{
+nav, a{
     text-align: center;
 }
 
