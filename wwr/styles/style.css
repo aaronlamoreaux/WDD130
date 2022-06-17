@@ -119,7 +119,26 @@ main, section, img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
-    margin-top: 200px;
+    margin-top: 20px;
+}
+
+#rivers-title-msg{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    align-self: center;
+    padding: 5px 280px;
+}
+
+#rivers-title-msg h1{
+    background-color: #69995D;
+    color: #454545;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#rivers-title-img{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    align-self: center;
 }
 
 .home-grid {
@@ -205,10 +224,10 @@ main, section, img {
 }
 
 .card-img{
-       border: 10px solid #D5A021;
-       width: 100%;
-       transition: transform .5s;
-       box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid #D5A021;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .card-img:hover {
@@ -222,26 +241,51 @@ main, section, img {
     grid-row: 5/8;
 }
 
+.rivers-title-box {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
+    justify-self: center;
+    text-align: center;
+}
+
 .rivers-idaho {
     background-color: #69995D;
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 3/4;
     box-shadow: 5px 5px 10px #6f7364;
     text-align: start;
+}
+
+.img-idaho{
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 
 .rivers-utah{
     background-color: #69995D;
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 4/5;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.img-utah {
+    grid-column: 1/2;
+    grid-row: 4/5;
 }
 
 .rivers-arizona{
     background-color: #69995D;
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 5/6;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.img-arizona {
+    grid-column: 2/3;
+    grid-row: 5/6;
 }
 
 .rivers-idaho h2, .rivers-utah h2, .rivers-arizona h2 {
