@@ -120,7 +120,7 @@ form {
     /* Additional highlight for focused elements */
     border-color: #000;
   }
-  
+   
   textarea {
     /* Align multiline text fields with their labels */
     vertical-align: top;
